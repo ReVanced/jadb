@@ -138,5 +138,9 @@ public class PackageManager {
      */
     public static final InstallOption GRANT_ALL_PERMISSIONS = new InstallOption("-g");
 
+    /**
+     * This option is supported only from Android 14.X+
+     */
+    public static final InstallOption UPDATE_OWNERSHIP = new InstallOption("--update-ownership");
     //</editor-fold>
 }
